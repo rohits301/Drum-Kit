@@ -29,13 +29,8 @@ function animateButton(currentKey) {
 
 function playSound (correspondingCharacter){
     switch(correspondingCharacter){
-        case "w": 
-            var snare = new Audio("sounds/snare.mp3");
-            snare.play();
-        break;
-
         case "a": 
-            var tom1 = new Audio("sounds/tom-1.mp3");
+            var tom1 = new Audio("sounds/snare.mp3");
             tom1.play();
         break;
 
@@ -47,6 +42,11 @@ function playSound (correspondingCharacter){
         case "d": 
             var kick = new Audio("sounds/kick-bass.mp3");
             kick.play();
+        break;
+
+        case "f": 
+            var snare = new Audio("sounds/tom-1.mp3");
+            snare.play();
         break;
 
         case "j": 

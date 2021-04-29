@@ -16,12 +16,8 @@ footer {
   font-family: sans-serif;
 }
 
-.w {
-  background-image: url(images/snare.png);
-}
-
 .a {
-  background-image: url(images/tom1.png);
+  background-image: url(images/snare.png);
 }
 
 .s {
@@ -30,6 +26,10 @@ footer {
 
 .d {
   background-image: url(images/kick.png);
+}
+
+.f {
+  background-image: url(images/tom1.png);
 }
 
 .j {
